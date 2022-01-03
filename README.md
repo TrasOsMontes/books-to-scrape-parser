@@ -1,10 +1,10 @@
-# Books ToScrape Parser
+# Books To Scrape Parser
 
 This program was built to parse the product details for books from http://books.toscrape.com/ based on book category.
 
 ## Description
 
-Books ToScrape Parser will allow you to parse books based on their category from the books.toscrape website.  Simply pass the book-parser.py script the categories you'd like to scrape in a list format and the format you'd like the script to output the data and the script will function.  
+Books To Scrape Parser will allow you to parse books based on their category from the books.toscrape website.  Simply pass the book-parser.py script the categories you'd like to scrape in a list format and the format you'd like the script to output the data and the script will function.  
 
 
 ## Getting Started
@@ -22,11 +22,11 @@ The below list of dependencies will be installed when you run the installation.
 
 Books ToScrape Parser is written in Python 3. You should install at least Python 3.6. 
 
-To install Books ToScrape Parser you simply create your virtual environment and install BookParser as source.  Run the following commands in the folder you created to store this.  
+To install Books To Scrape Parser you simply create your virtual environment and install BookParser as source.  Run the following commands in the folder you created to store this.  
 ```
 python3 -m venv env
 source env/bin/activate
-pip install git+git://github.com/TrasOsMontes/BookScraper/
+pip install git+git://github.com/TrasOsMontes/books-to-scrape-parser/
 python3 setup.py install
 ```
 
