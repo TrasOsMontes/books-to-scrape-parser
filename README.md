@@ -20,7 +20,7 @@ The below list of dependencies will be installed when you run the installation.
 
 ### Installing
 
-Books ToScrape Parser is written in Python 3. You should install at least Python 3.6. 
+Books ToScrape Parser is written in Python 3, specifically 3.7.10. For a smooth installation, I recommend using python 3.7.10, otherwise you will have to go through and ensure each item in requirements.txt is installed via pip. 
 
 To install Books To Scrape Parser you simply clone the project, cd into it, create your virtual environment and install the required external libraries through running the setup file.  Here are step by step installation instructions. 
 ```
