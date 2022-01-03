@@ -11,7 +11,7 @@ Books To Scrape Parser will allow you to parse books based on their category fro
 
 ### Dependencies
 
-* Python 3 (Any version of python 3 should work, but I'd recommend at least Python 3.6, which is the version it was developed in.)
+* Python 3.7.10.  The script can work with earlier versions of Python, but the installation process will require manual effort, likely requiring manually installing all the requirements in requirements.txt via pip.
 
 The below list of dependencies will be installed when you run the installation.
 * requests is used to request the html from the site to parse and to check whether it is a valid website.  
@@ -22,11 +22,12 @@ The below list of dependencies will be installed when you run the installation.
 
 Books ToScrape Parser is written in Python 3. You should install at least Python 3.6. 
 
-To install Books To Scrape Parser you simply create your virtual environment and install BookParser as source.  Run the following commands in the folder you created to store this.  
+To install Books To Scrape Parser you simply clone the project, cd into it, create your virtual environment and install the required external libraries through running the setup file.  Here are step by step installation instructions. 
 ```
+git clone https://github.com/TrasOsMontes/books-to-scrape-parser.git
+cd books-to-scrape-parser
 python3 -m venv env
 source env/bin/activate
-pip install git+git://github.com/TrasOsMontes/books-to-scrape-parser/
 python3 setup.py install
 ```
 
