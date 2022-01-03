@@ -1,0 +1,16 @@
+{
+    "products": {
+        "title" : "VARCHAR(500)",
+        "product_description": "TEXT",
+        "image": "VARCHAR(255)",
+        "url": "VARCHAR(255)",
+        "upc": "VARCHAR(100)",
+        "category": "VARCHAR(100)",
+        "product_type": "VARCHAR(100)",
+        "price_excl_tax": "VARCHAR(25)",
+        "price_incl_tax": "VARCHAR(25)",
+        "tax": "VARCHAR(25)",
+        "availability": "VARCHAR(150)",
+        "number_of_reviews": "DOUBLE"
+    }
+}
